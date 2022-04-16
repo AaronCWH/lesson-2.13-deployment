@@ -1,0 +1,35 @@
+Deployment
+create repository on github
+set settings
+
+OR create a new repo on command line
+
+then clone it to your local machine
+
+enter the cloned repository,
+
+use command npx create-react-app ./ to create react app in the deployed folder
+
+.DS_store folder that we do not have 
+
+do a git status to check 
+
+git remote -v to see the git push and fetch origins??
+
+git reset
+
+git branch branch-name (create new branch)
+git checkout	(switch branch)
+
+git push -u origin aaron-branch (upload)
+
+git add --all
+git commit -m 'message'
+git push origin main
+
+
+Fixing 'REACT_APP_ENV' is not recognized as an internal or external command, operable program or batch file.
+Either use
+1) "build:stage": "set \"REACT_APP_ENV=stage\" && react-scripts build",
+or
+2) "build:stage":"set REACT_APP_ENV=staging&&react-scripts start",
